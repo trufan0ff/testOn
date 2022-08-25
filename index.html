@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <header class="header">
+        <p class="logo">Логотип</p>
+    </header>
+
+    <section class="landing">
+        <h1 class="question__title">
+            Переезжаете  
+            <img class="airplane" src="/images/airplane.png" alt="Самолет"> 
+            в солнечный 
+            <img class="sun" src="/images/sun.png" alt="Солнце"> 
+            <br>
+            и уютный Краснодар?</h1>
+        <div class="krasnodar__subtitle">
+            В Краснодаре 84 застройщика и<br>  больше 107 000 квартир, 
+            но достойных<br> вашего внимания - еденицы, 
+            мы подберем идеальную квартиру по любым вашим параметрам - бесплатно
+        </div>
+        <div class="buttons">
+            <button class="selection" onclick="location.href='#main__content'">Подобрать квартиру</button>
+            <button class="confirmation">Убедиться что это хорошая идея</button>
+        </div>
+        <h6 class="confirmation__subtitle">
+                Еще раз убедиться в том, что преезд в Краснодар - это хорошая идея
+        </h6>
+    </section>
+
+    <section id="main__content">
+
+        <h2 class="portfolio__title">
+            <span>Подберите свою идеальную квартиру</span><br>ответив всего на 6 вопросов                
+        </h2>
+        <form id="main__page_block" class="main__page container" onsubmit="ym(89858203,'reachGoal','main__page_complete')">
+            <input type="hidden" name="action" value="">
+            <input type="hidden" name="id" value="">
+            <input type="hidden" name="source_id" value="">
+            <input type="hidden" name="utm_source" value="">
+            <input type="hidden" name="utm_medium" value="">
+            <input type="hidden" name="utm_campaign" value="">
+            <input type="hidden" name="utm_term" value="">
+            <input type="hidden" name="utm_content" value="">
+            
+                            
+            <div class="main__page__main" >
+                <div class="main__page__question active" 
+                    data-question="1" 
+                    id="q_1" data-id="1" 
+                    data-qtype="text-answer" 
+                    data-qchoose="radio" 
+                    data-num="1" ;="">
+
+                    <div class="visuallyty-hidden"><span>
+                        Пройдите этот тест</span> и я лично для вас 
+                        <span>подберу квартиры</span>
+                        по вашим параметрам, также расскажу о ипотеке без первого взноса.
+                    </div>
+
+                    <div class="main__page__question__head">
+                        <div class="main__page__question__progress">
+                            <span>Вопрос <span class="q_num" id="num_1">1</span></span>
+                        </div>
+                        <div class="main__page__question__title">Какая квартира вам нужна?</div>
+                    </div>
+
+                    <div class="main__page__answers main__page__answers_text">
+                        <div class="main__page__answer_txt__wrap">
+                            <label class="main__page__answer_txt" data-metrics="1" data-metricsid="89858203">
+                                <input type="radio" name="q1" value="Студия" class="visuallyty-hidden" data-next="2" data-perc="20">
+                                <p>Студия</p>
+                            </label>
+                        </div>
+
+                        <div class="main__page__answer_txt__wrap">
+                            <label class="main__page__answer_txt" data-metrics="1" data-metricsid="89858203">
+                                <input type="radio" name="q1" value="Однокомнатная квартира" class="visuallyty-hidden" data-next="2" data-perc="20">
+                                <p>Однокомнатная квартира</p>
+                            </label>
+                        </div>
+                        
+                        <div class="main__page__answer_txt__wrap">
+                            <label class="main__page__answer_txt" data-metrics="1" data-metricsid="89858203">
+                                <input type="radio" name="q1" value="Двухкомнатная квартира" class="visuallyty-hidden" data-next="2" data-perc="20">
+                                <p>Двухкомнатная квартира</p>
+                            </label>
+                        </div>
+
+                        <div class="main__page__answer_txt__wrap">
+                            <label class="main__page__answer_txt" data-metrics="1" data-metricsid="89858203">
+                                <input type="radio" name="q1" value="Трехкомнатная квартира" class="visuallyty-hidden" data-next="2" data-perc="20">
+                                <p>Трехкомнатная квартира</p>
+                            </label>
+                        </div>
+                        
+                        <div class="main__page__answer_txt__wrap">
+                            <label class="main__page__answer_txt" data-metrics="1" data-metricsid="89858203">
+                                <input type="radio" name="q1" value="Четыре и более комнат" class="visuallyty-hidden" data-next="2" data-perc="20">
+                                <p>Четыре и более комнат</p>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="main__page__buttons">
+                        <div class="main__page__btn-next__wrap">
+                            <button type="button" class="btn main__page__btn-next" disabled><span>Далее</span></button>
+
+                            <div class="main__page__btn-help">Выберите 1 варинт ответа и&nbsp;нажмите на кнопку далее</div>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </form>
+    </section>
+</body>
+</html>
